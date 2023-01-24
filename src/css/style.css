@@ -1,0 +1,39 @@
+body {
+    background-color: #846aa7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+section .cor {
+    height: 100px;
+    width: 100px;
+}
+
+section .cor.cor1 {
+    background-color: blue;
+}
+
+section .cor.cor2 {
+    background-color: red;
+}
+
+section .cor.cor3 {
+    background-color: yellow;
+}
+
+button {
+    padding: 3px 8px;
+    font-size: .9rem;
+}
